@@ -2,11 +2,7 @@ class KBC:
     
 
     def __init__(self, question, optiona , optionb, optionc,optiond, correctoption):
-       self.question = question
-       self.optiona = optiona        
-       self.optionb = optionb
-       self.optionc = optionc   
-       self.optiond = optiond
+   
        self.correctoption = correctoption
     
     def display_question(self):
